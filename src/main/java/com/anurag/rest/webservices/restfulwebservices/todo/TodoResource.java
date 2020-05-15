@@ -30,6 +30,7 @@ public class TodoResource {
 		return todoService.findAll();
 	}
 
+	
 	@GetMapping("/users/{username}/todos/{id}")
 	public Todo getTodo(@PathVariable String username, @PathVariable long id){
 		return todoService.findById(id);
