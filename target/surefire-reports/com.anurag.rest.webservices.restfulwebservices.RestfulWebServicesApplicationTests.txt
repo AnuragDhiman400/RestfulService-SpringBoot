@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.anurag.rest.webservices.restfulwebservices.RestfulWebServicesApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.529 s - in com.anurag.rest.webservices.restfulwebservices.RestfulWebServicesApplicationTests
