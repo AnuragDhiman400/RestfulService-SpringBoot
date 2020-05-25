@@ -55,7 +55,7 @@ public class TodoJpaResource {
 	}
 	
 
-	//Edit/Update a Todo
+	//Edit and Update a Todo
 	//PUT /users/{user_name}/todos/{todo_id}
 	@PutMapping("/jpa/users/{username}/todos/{id}")
 	public ResponseEntity<Todo> updateTodo(
