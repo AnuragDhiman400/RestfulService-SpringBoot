@@ -22,6 +22,7 @@ import com.anurag.rest.webservices.restfulwebservices.todo.Todo;
 @RestController
 public class TodoJpaResource {
 	
+	//Autowiring is done
 	@Autowired
 	private TodoHardcodedService todoService;
 
