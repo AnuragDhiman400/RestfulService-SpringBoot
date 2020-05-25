@@ -29,7 +29,7 @@ public class TodoJpaResource {
 	@Autowired
 	private TodoJpaRepository todoJpaRepository;
 
-	
+	//Getmapping
 	@GetMapping("/jpa/users/{username}/todos")
 	public List<Todo> getAllTodos(@PathVariable String username){
 		return todoJpaRepository.findByUsername(username);
