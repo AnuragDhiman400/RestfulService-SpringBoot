@@ -14,4 +14,5 @@ public class BasicAuthenticationController {
 		//throw new RuntimeException("Some Error has Happened! Contact Support at ***-***");
 		return new AuthenticationBean("You are authenticated");
 	}	
+
 }
